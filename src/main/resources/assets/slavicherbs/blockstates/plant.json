@@ -1,7 +1,5 @@
 {
     "variants": {
-        "": {
-            "model": "slavicherbs:block/plant"
-        }
+        "": {"model": "slavicherbs:block/plant"}
     }
 }

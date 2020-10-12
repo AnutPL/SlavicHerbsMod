@@ -1,4 +1,9 @@
 {
   "block.slavicherbs.dirt_block_2": "Dirt2",
   "block.slavicherbs.plant": "Plant",
+  "block.slavicherbs.chamomile": "Chamomile",
+  "block.slavicherbs.nettle": "Nettle",
+  "block.slavicherbs.ribleaf": "Ribleaf",
+  "block.slavicherbs.sage": "Sage",
+  "block.slavicherbs.yarrow": "Yarrow",
   "itemGroup.slavicHerbs": "Slavic Herbs"}
