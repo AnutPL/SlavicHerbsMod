@@ -24,12 +24,14 @@ import org.apache.logging.log4j.Logger;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("slavicherbs")
+@Mod(SlavicHerbs.MODID)
 public class SlavicHerbs
 {
-    // Directly reference a log4j logger.
+    public static final String MODID = "slavicherbs";
+    // Directly reference a log4j logger
     private static final Logger LOGGER = LogManager.getLogger();
 
+    // Creative tab declaration
     public static final ItemGroup SLAVIC_HERBS = (new ItemGroup(13, "slavicHerbs") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack createIcon() {
